@@ -33,5 +33,5 @@ const users = [
 ]
 
 module.exports.get = (req, res) => {
-    return res.end(JSON.stringify(todos));
+    return res.end(JSON.stringify(users));
 }
